@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+
+input:focus-within ~ label,
+input:not(:placeholder-shown) ~ label {
+  @apply transform scale-75 -translate-y-3;
+}
+
+input:focus-within ~ label {
+  @apply text-blue-500;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.custom-bg {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5.624868869781494px);
+  border-radius: 37.499px 0px 0px 37.499px;
+}
+
+/* .hidclass {
+  width: 570px;
+  @media (max-width: 1023px) {
+    display: none;
+  }
+} */
