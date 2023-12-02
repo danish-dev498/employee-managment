@@ -49,7 +49,7 @@ const LoginForm = () => {
                   <h1 className='text-sm'>
                     By continuing you agree to{' '}
                     <span className='text-teal-blue-400'>
-                      Terms & Conditions
+                      Please read carefully Terms & Conditions
                     </span>{' '}
                     and{' '}
                     <span className='text-teal-blue-400'>Privacy Policy</span>
